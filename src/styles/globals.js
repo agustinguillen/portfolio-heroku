@@ -32,6 +32,23 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  ::-webkit-scrollbar {
+    width: 0.8vw;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: ${props => props.theme.colors.primary1};
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: ${props => props.theme.colors.background1};
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+
 `;
 
 export default GlobalStyles;

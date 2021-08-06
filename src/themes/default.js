@@ -7,9 +7,9 @@ export default {
 
   colors: {
     primary1: "#f2f5f7",
-    background1: "#0F1624",
-    accent1: "	#fec576",
-    button: "	#006bb8",
+    background1: "#000B1B",
+    accent1: "#fec576",
+    button: "#006bb8",
     background2: "#2c304d",
   },
 
