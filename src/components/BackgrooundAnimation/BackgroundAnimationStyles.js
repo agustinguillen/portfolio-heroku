@@ -10,6 +10,7 @@ export const ParticlesDiv = styled.div`
         top: 0;
         left: 0;
         z-index: -1;
-      }
+        height: 100vh;
+    }
     
 `

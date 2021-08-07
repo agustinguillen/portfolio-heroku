@@ -5,7 +5,7 @@ import { Box, Boxes, BoxNum, BoxText, ExternalLinks } from './CertificationsStyl
 import { data } from '../../constants/constants';
 
 const Certifications = () => (
-  <Section>
+  <Section id="certifications">
     <SectionTitle>Certifications & Courses</SectionTitle>
     <Boxes>
       {data.map((card, index) => (

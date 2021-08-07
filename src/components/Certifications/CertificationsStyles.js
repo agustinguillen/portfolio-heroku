@@ -18,7 +18,7 @@ export const Boxes = styled.div`
     flex-wrap: wrap;
     justify-content: between;
     max-width: 500px;
-    margin: 2rem 4vw;
+    margin: 2rem 0;
   }
 `
 

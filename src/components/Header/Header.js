@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import Link from 'next/link';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { HiCode } from 'react-icons/hi';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
