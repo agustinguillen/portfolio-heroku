@@ -47,7 +47,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: '2021-Present', text: 'JavaScript Tutor at Coderhouse, Remote Work'},
+  { year: '2021-Present', text: 'Front-End Developer at Loro & JavaScript Tutor at Coderhouse, Remote Work'},
   { year: '2019-2021', text: 'Warehouse Administrator at Mateu Sports, La Plata'},
   { year: '2017-2018', text: 'Main Warehouse Analist at Rossi Deportes, Mar del Plata'},
   { year: '2014-2016', text: 'Administrative Assistant at Constructora Navarro, Mendoza'}

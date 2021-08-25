@@ -44,11 +44,11 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      At the moment, I'm a JavaScript Tutor at Coderhouse and a Front-End trainee. I have completed the Front-End Developer career at Coderhouse, including the Web Development, JavaScript and React.js bootcamps. 
+      At the moment, I'm a Jr. Front-End Developer at Loro and JavaScript Tutor at Coderhouse. I have completed the Front-End Developer career at Coderhouse, including the Web Development, JavaScript and React.js bootcamps. 
       In addition, I have knowledge in Angular 11 framework, TypeScript and Back-End technologies such as Node JS, MongoDB, Firebase and MySQL. I like learning by myself from different sources like official documentation, Udemy courses and tutorials. 
       Also, I know UX/UI Design basics and I can handle different design tools used to design user interfaces. 
       I'm a creative, proactive, organized and responsable person that works well in teams. 
-      I'd like to become a Professional FullStack Developer and expand my habilities to another programming languages such as C#, Python and it's development environments as well.
+      I'd like to become a Professional FullStack Developer and expand my habilities to another programming languages such as C#, Php and it's development environments as well.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
