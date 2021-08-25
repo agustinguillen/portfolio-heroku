@@ -4,7 +4,7 @@ import { Section, SectionText, SectionTitle, SectionSubtitle } from '../../style
 import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
-  <Section row nopadding>
+  <Section id="hero" row nopadding>
     <LeftSection>
       <SectionTitle main center>
         Welcome to my Portfolio
