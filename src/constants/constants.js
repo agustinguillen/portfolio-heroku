@@ -1,12 +1,20 @@
 export const projects = [
   {
+    title: 'Loro',
+    description: "loro.com.co | Loro is a Colombian Start-up and my first profesional experience as a Frontend Developer. This platform is an Ecommerce/Virtual Shopping app based in Colombia, where stores can offer their products and deliver them to clients. My job consists on developing new features on the app, fixing bugs, working on optimizations. There are other parallel apps like the administrator (Angular.js), landing pages and a manager app for the stores.",
+    image: '/images/loro.jpg',
+    tags: ['React', 'React-Bootstrap', 'Redux', 'Firebase', 'Php', 'SQL'],
+    visit: 'https://loro.com.co/',
+    id: 0,
+  },
+  {
     title: 'Airwav',
     description: "Airwav is an ecommerce platform project using React for the frontend development and Firebase as database for the backend. Airwav is an idea for a fictional music store company located in La Plata, Argentina. On this webapp you can login using Google Authentication provider, preview the products with detail, select the products you'd like to purchase, generate a buying order that are saved within your user account.",
     image: '/images/airwav.jpg',
     tags: ['React', 'React-Bootstrap', 'Firebase'],
     code: 'https://github.com/agustinguillen/airwavGuillen',
     visit: 'https://airwav-instruments.herokuapp.com/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Vaporbox',
@@ -15,7 +23,7 @@ export const projects = [
     tags: ['MEAN Stack', 'Angular', 'Node', 'MongoDB', 'Socket.io'],
     code: 'https://github.com/agustinguillen/vaporbox',
     visit: 'https://vaporbox.herokuapp.com/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Velvet',
@@ -24,7 +32,7 @@ export const projects = [
     tags: ['Angular 11', 'Bootstrap'],
     code: 'https://github.com/agustinguillen/velvet',
     visit: 'https://agustinguillen.github.io/velvet/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Budger',
@@ -33,7 +41,7 @@ export const projects = [
     tags: ['Jquery', 'JavaScript', 'Bootstrap', 'Ajax'],
     code: 'https://github.com/agustinguillen/budger',
     visit: 'https://agustinguillen.github.io/budger/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Saurus Beats',
@@ -42,12 +50,13 @@ export const projects = [
     tags: ['Bootstrap', 'SCSS'],
     code: 'https://github.com/agustinguillen/saurusbeats',
     visit: 'https://agustinguillen.github.io/saurusbeats/',
-    id: 4,
+    id: 5,
   }
 ];
 
 export const TimeLineData = [
-  { year: '2021-Present', text: 'Front-End Developer at Loro & JavaScript Tutor at Coderhouse, Remote Work'},
+  { year: '2021-Present', text: 'Front-End Developer at Loro, Remote'},
+  { year: '2021', text: 'JavaScript Tutor at Coderhouse, Remote'},
   { year: '2019-2021', text: 'Warehouse Administrator at Mateu Sports, La Plata'},
   { year: '2017-2018', text: 'Main Warehouse Analist at Rossi Deportes, Mar del Plata'},
   { year: '2014-2016', text: 'Administrative Assistant at Constructora Navarro, Mendoza'}

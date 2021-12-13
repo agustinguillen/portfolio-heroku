@@ -44,11 +44,11 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      At the moment, I'm a Jr. Front-End Developer at Loro and JavaScript Tutor at Coderhouse. I have completed the Front-End Developer career at Coderhouse, including the Web Development, JavaScript and React.js bootcamps. 
+      At the moment, I'm a Front-End Developer at Loro (loro.com.co), a Colombian Start-up. Loro is an Ecommerce / Virtual Shopping Platform where the stores can sell their products and deliver them to clients. The FrontEnd of this app uses React JS, Redux and Firebase. I have worked as a JavaScript Tutor at Coderhouse, an E-Learning Platform. I have completed the Front-End Developer career at Coderhouse, including the Web Development, JavaScript and React.js bootcamps. 
       In addition, I have knowledge in Angular 11 framework, TypeScript and Back-End technologies such as Node JS, MongoDB, Firebase and MySQL. I like learning by myself from different sources like official documentation, Udemy courses and tutorials. 
       Also, I know UX/UI Design basics and I can handle different design tools used to design user interfaces. 
-      I'm a creative, proactive, organized and responsable person that works well in teams. 
-      I'd like to become a Professional FullStack Developer and expand my habilities to another programming languages such as C#, Php and it's development environments as well.
+      I'm a creative, proactive, organized and responsable person that finds easy to work in teams efficiently. 
+      I'm always looking foward to keep growing as a FrontEnd Developer and learning new technologies, and I'm also interested in becoming a FullStack Dev.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
