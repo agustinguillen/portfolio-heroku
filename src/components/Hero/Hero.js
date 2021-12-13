@@ -13,7 +13,7 @@ const Hero = () => (
         Agustín Nicolás Guillén
       </SectionSubtitle>
       <SectionText>
-        Front-End Developer - La Plata, Buenos Aires, Argentina
+        Front-End Developer - Mendoza, Argentina
       </SectionText>
     </LeftSection>
   </Section>
