@@ -8,23 +8,33 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Airwav',
-    description: "Airwav is an ecommerce platform project using React for the frontend development and Firebase as database for the backend. Airwav is an idea for a fictional music store company located in La Plata, Argentina. On this webapp you can login using Google Authentication provider, preview the products with detail, select the products you'd like to purchase, generate a buying order that are saved within your user account.",
-    image: '/images/airwav.jpg',
-    tags: ['React', 'React-Bootstrap', 'Firebase'],
-    code: 'https://github.com/agustinguillen/airwavGuillen',
-    visit: 'https://airwav-instruments.herokuapp.com/',
-    id: 1,
-  },
-  {
     title: 'Vaporbox',
     description:"Vaporbox is a social network web application developed with MEAN Stack and featuring Socket.io library to accomplish real time notifications and messages. It uses JWT for the authentication. Vaporbox is a vaporwave theme platform where you can upload images in different formats and gifs, make text posts like Twitter and save post from another users. Also, you can follow and unfollowed users and chat with the ones that follow you.",
     image: '/images/vaporbox.jpg',
     tags: ['MEAN Stack', 'Angular', 'Node', 'MongoDB', 'Socket.io'],
     code: 'https://github.com/agustinguillen/vaporbox',
     visit: 'https://vaporbox.herokuapp.com/',
+    id: 1,
+  },
+  {
+    title: 'Github Users',
+    description: "Front-end challenge for Loro job application developed with React using react-bootstrap, react-router-dom, axios and SCSS. With this  app, you can search for GitHub users, access their profile information, and view the various repositories they own with a link to the sources. This is possible thanks to the GitHub API ( https://api.github.com/ ), which Loro has asked to use. It also provides error messages for the different cases it can handle.",
+    image: '/images/github_users.jpg',
+    tags: ['React', 'React-Bootstrap', 'Axios', 'SCSS'],
+    code: 'https://github.com/agustinguillen/front-end-test-coding/',
+    visit: 'https://github-users-loro.herokuapp.com/',
     id: 2,
   },
+  {
+    title: 'Airwav',
+    description: "Airwav is an ecommerce platform project using React for the frontend development and Firebase as database for the backend. Airwav is an idea for a fictional music store company located in La Plata, Argentina. On this webapp you can login using Google Authentication provider, preview the products with detail, select the products you'd like to purchase, generate a buying order that are saved within your user account.",
+    image: '/images/airwav.jpg',
+    tags: ['React', 'React-Bootstrap', 'Firebase'],
+    code: 'https://github.com/agustinguillen/airwavGuillen',
+    visit: 'https://airwav-instruments.herokuapp.com/',
+    id: 3,
+  },
+  
   {
     title: 'Velvet',
     description: "Velvet is a movie catalog web application developed with Angular 11, Bootstrap and getting the data from The Movie Database (TMDb) api with the HttpClient feature. On Velvet you can see the latest releases, filter the movies by genre and search them by it's name. Into each movie detail you can find the movie poster, description, year of release, genres, cast of the film and you can also watch the trailer, embed from YouTube.",
@@ -32,7 +42,7 @@ export const projects = [
     tags: ['Angular 11', 'Bootstrap'],
     code: 'https://github.com/agustinguillen/velvet',
     visit: 'https://agustinguillen.github.io/velvet/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Budger',
@@ -41,7 +51,7 @@ export const projects = [
     tags: ['Jquery', 'JavaScript', 'Bootstrap', 'Ajax'],
     code: 'https://github.com/agustinguillen/budger',
     visit: 'https://agustinguillen.github.io/budger/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Saurus Beats',
@@ -50,7 +60,7 @@ export const projects = [
     tags: ['Bootstrap', 'SCSS'],
     code: 'https://github.com/agustinguillen/saurusbeats',
     visit: 'https://agustinguillen.github.io/saurusbeats/',
-    id: 5,
+    id: 6,
   }
 ];
 

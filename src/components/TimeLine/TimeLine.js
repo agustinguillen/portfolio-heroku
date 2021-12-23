@@ -44,21 +44,34 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      At the moment, I'm a Front-End Developer at Loro (loro.com.co), a Colombian Start-up. Loro is an Ecommerce / Virtual Shopping Platform where the stores can sell their products and deliver them to clients. The FrontEnd of this app uses React JS, Redux and Firebase. I have worked as a JavaScript Tutor at Coderhouse, an E-Learning Platform. I have completed the Front-End Developer career at Coderhouse, including the Web Development, JavaScript and React.js bootcamps. 
-      In addition, I have knowledge in Angular 11 framework, TypeScript and Back-End technologies such as Node JS, MongoDB, Firebase and MySQL. I like learning by myself from different sources like official documentation, Udemy courses and tutorials. 
-      Also, I know UX/UI Design basics and I can handle different design tools used to design user interfaces. 
-      I'm a creative, proactive, organized and responsable person that finds easy to work in teams efficiently. 
-      I'm always looking foward to keep growing as a FrontEnd Developer and learning new technologies, and I'm also interested in becoming a FullStack Dev.
+        I am currently a front-end developer at Loro (loro.com.co), a Colombian
+        start-up. Loro is an e-commerce / virtual shopping platform where stores
+        can sell and deliver their products to customers. The front-end of this
+        app uses React JS, Redux and Firebase. I worked as a JavaScript tutor at
+        Coderhouse, an e-learning platform. I have completed the front-end
+        developer career at Coderhouse, including the Web Development,
+        JavaScript, and React.js bootcamps. I also have knowledge of Angular 11
+        framework, TypeScript and back-end technologies such as Node JS,
+        MongoDB, Firebase and MySQL. I like to learn by myself from various
+        sources like official documentations, Udemy courses and tutorials. I
+        also know the basics of UX /UI design and can handle various design
+        tools for user interface design. I am a creative, proactive, organized
+        and responsible person who finds it easy to work efficiently in teams. I
+        am always looking forward to develop as a FrontEnd developer and learn
+        new technologies, and I am also interested in becoming a FullStack Dev.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index)=>(
-            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+          {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode
+              key={index}
+              final={index === TOTAL_CAROUSEL_COUNT - 1}
+            >
               <CarouselItem
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
-                onClick={(e)=> handleClick(e, index)}
+                onClick={(e) => handleClick(e, index)}
               >
                 <CarouselItemTitle>
                   {`${item.year}`}
@@ -67,7 +80,8 @@ const Timeline = () => {
                     height="6"
                     viewBox="0 0 208 6"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       fillRule="evenodd"
                       clipRule="evenodd"
@@ -82,7 +96,8 @@ const Timeline = () => {
                         y1="0.5"
                         x2="208"
                         y2="0.500295"
-                        gradientUnits="userSpaceOnUse">
+                        gradientUnits="userSpaceOnUse"
+                      >
                         <stop stopColor="white" />
                         <stop
                           offset="0.79478"
@@ -107,7 +122,8 @@ const Timeline = () => {
               index={index}
               active={activeItem}
               onClick={(e) => handleClick(e, index)}
-              type="button">
+              type="button"
+            >
               <CarouselButtonDot active={activeItem} />
             </CarouselButton>
           );
