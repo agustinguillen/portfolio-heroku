@@ -1,11 +1,27 @@
 export const projects = [
   {
+    title: 'Wayru',
+    description: "https://testnet.wayru.io/ | Wayru is a Ecuatorian Start-up. It's an Decentralized Internet Network and Provider that incorporates algorand blockchain and smart contracts. React, Material UI + Bootstrap is used in this front-end.",
+    image: '/images/wayru.png',
+    tags: ['React', 'React-Bootstrap', 'Material UI', 'AWS'],
+    visit: 'https://testnet.wayru.io/',
+    id: 0,
+  },
+  {
+    title: 'Offsiteio (RYZLabs)',
+    description: "https://plan.offsiteio.com/ | Offsiteio is a corporate event planning service that specializes in organizing offsite trips for growing companies. More info available at https://offsiteio.com/. I used React and Material UI for this frontend",
+    image: '/images/offsiteio.jpg',
+    tags: ['React', 'Material UI', 'AWS'],
+    visit: 'https://plan.offsiteio.com/',
+    id: 1,
+  },
+  {
     title: 'Loro',
-    description: "loro.com.co | Loro is a Colombian Start-up and my first profesional experience as a Frontend Developer. This platform is an Ecommerce/Virtual Shopping app based in Colombia, where stores can offer their products and deliver them to clients. My job consists on developing new features on the app, fixing bugs, working on optimizations. There are other parallel apps like the administrator (Angular.js), landing pages and a manager app for the stores.",
+    description: "loro.com.co | Loro was a Colombian Start-up and my first profesional experience as a Frontend Developer. This platform is an Ecommerce/Virtual Shopping app based in Colombia, where stores can offer their products and deliver them to clients. My job consists on developing new features on the app, fixing bugs, working on optimizations. There are other parallel apps like the administrator (Angular.js), landing pages and a manager app for the stores.",
     image: '/images/loro.jpg',
     tags: ['React', 'React-Bootstrap', 'Redux', 'Firebase', 'Php', 'SQL'],
     visit: 'https://loro.com.co/',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Vaporbox',
@@ -14,7 +30,7 @@ export const projects = [
     tags: ['MEAN Stack', 'Angular', 'Node', 'MongoDB', 'Socket.io'],
     code: 'https://github.com/agustinguillen/vaporbox',
     visit: 'https://vaporbox.herokuapp.com/',
-    id: 1,
+    id: 3,
   },
   {
     title: 'Github Users',
@@ -22,8 +38,8 @@ export const projects = [
     image: '/images/github_users.jpg',
     tags: ['React', 'React-Bootstrap', 'Axios', 'SCSS'],
     code: 'https://github.com/agustinguillen/front-end-test-coding/',
-    visit: 'https://github-users-loro.herokuapp.com/',
-    id: 2,
+    visit: 'https://agustin-nicolas-guillen.d36k3austvoqs9.amplifyapp.com/',
+    id: 4,
   },
   {
     title: 'Airwav',
@@ -32,7 +48,7 @@ export const projects = [
     tags: ['React', 'React-Bootstrap', 'Firebase'],
     code: 'https://github.com/agustinguillen/airwavGuillen',
     visit: 'https://airwav-instruments.herokuapp.com/',
-    id: 3,
+    id: 5,
   },
   
   {
@@ -42,7 +58,7 @@ export const projects = [
     tags: ['Angular 11', 'Bootstrap'],
     code: 'https://github.com/agustinguillen/velvet',
     visit: 'https://agustinguillen.github.io/velvet/',
-    id: 4,
+    id: 6,
   },
   {
     title: 'Budger',
@@ -51,7 +67,7 @@ export const projects = [
     tags: ['Jquery', 'JavaScript', 'Bootstrap', 'Ajax'],
     code: 'https://github.com/agustinguillen/budger',
     visit: 'https://agustinguillen.github.io/budger/',
-    id: 5,
+    id: 7,
   },
   {
     title: 'Saurus Beats',
@@ -60,16 +76,17 @@ export const projects = [
     tags: ['Bootstrap', 'SCSS'],
     code: 'https://github.com/agustinguillen/saurusbeats',
     visit: 'https://agustinguillen.github.io/saurusbeats/',
-    id: 6,
+    id: 8,
   }
 ];
 
 export const TimeLineData = [
-  { year: '2021-Present', text: 'Front-End Developer at Loro, Remote'},
-  { year: '2021', text: 'JavaScript Tutor at Coderhouse, Remote'},
+  { year: '2022- Present', text: 'Front-End Developer at Wayru, Remote'},
+  { year: '2022', text: 'Front-End Developer at RYZLabs, Remote'},
+  { year: '2021- 2022', text: 'Front-End Developer at Loro, Remote'},
+  { year: '2021- 2022', text: 'JavaScript Tutor at Coderhouse, Remote'},
   { year: '2019-2021', text: 'Warehouse Administrator at Mateu Sports, La Plata'},
   { year: '2017-2018', text: 'Main Warehouse Analist at Rossi Deportes, Mar del Plata'},
-  { year: '2014-2016', text: 'Administrative Assistant at Constructora Navarro, Mendoza'}
 ];
 
 export const data = [

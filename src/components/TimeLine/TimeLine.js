@@ -15,20 +15,20 @@ const Timeline = () => {
   }
 
   const handleClick = (e, i) => {
-     e.preventDefault();
+    e.preventDefault();
 
-     if (carouselRef.current) {
+    if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
 
   const handleScroll = () => {
     if (carouselRef.current) {
-    const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
 
-    setActiveItem(index);
+      setActiveItem(index);
     }
   }
 
@@ -42,23 +42,29 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
+      <SectionText>I am currently employed as a front-end developer at <a href='https://www.wayru.io/' rel='noreferrer' target='_blank'>Wayru</a>,
+        a web3 startup based in Ecuador. Wayru stands out as an Internet Service Provider that leverages smart contracts and blockchain technology.
+        For the front-end development of our application, we utilize Next.js, TypeScript, Tamagui UI, and AWS.</SectionText>
       <SectionText>
-        I am currently a front-end developer at Loro (loro.com.co), a Colombian
-        start-up. Loro is an e-commerce / virtual shopping platform where stores
-        can sell and deliver their products to customers. The front-end of this
-        app uses React JS, Redux and Firebase. I worked as a JavaScript tutor at
-        Coderhouse, an e-learning platform. I have completed the front-end
-        developer career at Coderhouse, including the Web Development,
-        JavaScript, and React.js bootcamps. I also have knowledge of Angular 11
-        framework, TypeScript and back-end technologies such as Node JS,
-        MongoDB, Firebase and MySQL. I like to learn by myself from various
-        sources like official documentations, Udemy courses and tutorials. I
-        also know the basics of UX /UI design and can handle various design
-        tools for user interface design. I am a creative, proactive, organized
-        and responsible person who finds it easy to work efficiently in teams. I
-        am always looking forward to develop as a FrontEnd developer and learn
-        new technologies, and I am also interested in becoming a FullStack Dev.
+        In addition to my experience at Wayru, I have also worked with other startups such as  <a href='https://ryzlabs.com/' rel='noreferrer' target='_blank'>RYZLabs</a>
+        {' '}and Loro (a now-defunct Colombian company).
+        Furthermore, I have served as a JavaScript tutor at Coderhouse, an e-learning platform.
+        I completed the front-end developer career program at Coderhouse, which encompassed Web Development, JavaScript, and React.js bootcamps.
+        I also possess knowledge of Angular 11 framework, AngularJS, as well as back-end technologies like Node.js, MongoDB, Firebase, MySQL and various AWS services.
+      </SectionText>
+      <SectionText>
+        I have a strong inclination towards self-learning and draw knowledge from various sources, including official documentations, bootcamps, and tutorials.
+        Additionally, I possess a basic understanding of UX/UI design principles and have proficiency in using various design tools for user interface design.
+
+      </SectionText>
+      <SectionText>
+        As an individual, I am known for my creativity, proactiveness, organization, and responsibility, which enable me to work efficiently within teams.
+        I am always eager to expand my skills as a front-end developer and explore new technologies.
+        Moreover, I have a keen interest in evolving as a Full Stack Developer.
+        Thank you for considering my profile.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
