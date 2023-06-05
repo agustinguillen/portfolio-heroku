@@ -16,7 +16,6 @@ const Certifications = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider/>
   </Section>
 );
 

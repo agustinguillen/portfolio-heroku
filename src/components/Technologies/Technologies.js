@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiMysql, DiNodejsSmall, DiMongodb, DiReact, DiAngularSimple, DiJqueryLogo, DiBootstrap, DiSass } from 'react-icons/di';
-import { SiAdobexd, SiAdobeillustrator, SiAdobephotoshop, SiFigma, SiNextDotJs } from 'react-icons/si';
+import { SiAdobexd, SiAdobeillustrator, SiAdobephotoshop, SiFigma, SiNextDotJs, SiAmazonaws } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListIconFlex } from './TechnologiesStyles';
 
@@ -16,6 +16,7 @@ const Technologies = () =>  (
       <ListItem>
         <ListIconFlex>
           <DiReact size="3rem"/>
+          <SiNextDotJs size="2.4rem" style={{marginTop: '3px'}} />
           <DiAngularSimple size="3rem"/>
           <DiJqueryLogo size="3rem"/>
           <DiBootstrap size="3rem"/>
@@ -25,7 +26,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js, Angular 11, Jquery, Bootstrap and Sass
+            React.js, Next.js, Angular 11+, AngularJS, Jquery, Material UI, Bootstrap and SASS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,13 +36,13 @@ const Technologies = () =>  (
           <DiMongodb size="3rem"/>
           <DiMysql size="3rem"/>
           <DiFirebase size="3rem"/>
-          <SiNextDotJs size="2.4rem" style={{marginTop: '3px'}} />
+          <SiAmazonaws size='3rem' />
         </ListIconFlex>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Back-End and Infrastructure</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js, Express, MongoDB, MySQL, Firebase and Next.js
+            Knowledge in <br />
+            Node.js, Express, MongoDB, MySQL, Firebase and AWS
           </ListParagraph>
         </ListContainer>
       </ListItem>
