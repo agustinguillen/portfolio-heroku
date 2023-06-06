@@ -29,7 +29,7 @@ export const projects = [
     image: '/images/vaporbox.jpg',
     tags: ['MEAN Stack', 'Angular', 'Node', 'MongoDB', 'Socket.io'],
     code: 'https://github.com/agustinguillen/vaporbox',
-    visit: 'https://vaporbox.herokuapp.com/',
+    visit: 'https://vaporbox.onrender.com/',
     id: 3,
   },
   {
