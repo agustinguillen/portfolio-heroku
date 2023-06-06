@@ -22,9 +22,6 @@ export const SidebarButton = styled.button`
   align-self: center;
   background-color: rgba(255, 255, 255, 0.75);
   &:hover{
-      width: 11px;
-      height: 11px;
-      margin: 9px 2px;
       background-color: #B133FF;
       cursor: pointer
   }
