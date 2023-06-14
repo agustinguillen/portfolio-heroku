@@ -11,13 +11,13 @@ const Projects = () => (
     <GridContainer style={{ paddingBottom: '5vh' }}>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i} style={{ height: '760px' }}>
+          <BlogCard key={i} style={{ height: '760px', minHeight: 'fit-content' }}>
             <Img src={p.image} style={{ height: '250px' }} />
             <TitleContent>
               <HeaderThree title="true">{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
-            <CardInfo className="card-info" style={{ fontSize: '1.2rem' }}>{p.description}</CardInfo>
+            <CardInfo className="card-info" style={{ fontSize: '1.1rem' }}>{p.description}</CardInfo>
             <div style={{ marginTop: '15px' }}>
               <TitleContent>Stack</TitleContent>
               <TagList>
