@@ -1,11 +1,20 @@
 export const projects = [
   {
+    title: 'Blockwave',
+    description: "BlockWave is a showcase commercial static website for a fictional startup accelerator company. I wanted to enhance my portfolio with an impressive animated website incorporating 3D elements and animations. To achieve this, I implemented libraries such as Framer Motion and Three.js. All the texts, names, photos, and fake company logos were primarily generated using AI.",
+    image: '/images/blockwave.jpg',
+    tags: ['React', 'Three JS', 'Material UI', 'Vite', 'TypeScript'],
+    visit: 'https://blockwave.netlify.app/',
+    code: 'https://github.com/agustinguillen/blockwave',
+    id: 0,
+  },
+  {
     title: 'Wayru',
     description: "https://testnet.wayru.io/ | Wayru is a Ecuatorian Start-up. It's an Decentralized Internet Network and Provider that incorporates algorand blockchain and smart contracts. React, Material UI + Bootstrap is used in this front-end.",
     image: '/images/wayru.png',
     tags: ['React', 'React-Bootstrap', 'Material UI', 'AWS'],
     visit: 'https://testnet.wayru.io/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Offsiteio (RYZLabs)',
@@ -13,24 +22,24 @@ export const projects = [
     image: '/images/offsiteio.jpg',
     tags: ['React', 'Material UI', 'AWS'],
     visit: 'https://plan.offsiteio.com/',
-    id: 1,
-  },
-  {
-    title: 'Loro',
-    description: "loro.com.co | Loro was a Colombian Start-up and my first profesional experience as a Frontend Developer. This platform is an Ecommerce/Virtual Shopping app based in Colombia, where stores can offer their products and deliver them to clients. My job consists on developing new features on the app, fixing bugs, working on optimizations. There are other parallel apps like the administrator (Angular.js), landing pages and a manager app for the stores.",
-    image: '/images/loro.jpg',
-    tags: ['React', 'React-Bootstrap', 'Redux', 'Firebase', 'Php', 'SQL'],
-    visit: 'https://loro.com.co/',
     id: 2,
   },
   {
+    title: 'Loro',
+    description: "loro.com.co | Loro was a Colombian Start-up and my first profesional experience as a Frontend Developer. This platform was an Ecommerce/Virtual Shopping app based in Colombia, where stores can offer their products and deliver them to clients. There were other parallel apps like the administrator (Angular.js), landing pages and a manager app for the stores.",
+    image: '/images/loro.jpg',
+    tags: ['React', 'React-Bootstrap', 'Redux', 'Firebase', 'Php', 'SQL'],
+    visit: 'https://loro.com.co/',
+    id: 3,
+  },
+  {
     title: 'Vaporbox',
-    description:"Vaporbox is a social network web application developed with MEAN Stack and featuring Socket.io library to accomplish real time notifications and messages. It uses JWT for the authentication. Vaporbox is a vaporwave theme platform where you can upload images in different formats and gifs, make text posts like Twitter and save post from another users. Also, you can follow and unfollowed users and chat with the ones that follow you.",
+    description:"Vaporbox is a social network web application developed with MEAN Stack and featuring Socket.io library to accomplish real time notifications and messages. Vaporbox is a vaporwave theme platform where you can upload images in different formats and gifs, make text posts like Twitter and save post from another users. Also, you can follow and unfollowed users and chat with the ones that follow you.",
     image: '/images/vaporbox.jpg',
     tags: ['MEAN Stack', 'Angular', 'Node', 'MongoDB', 'Socket.io'],
     code: 'https://github.com/agustinguillen/vaporbox',
     visit: 'https://vaporbox.onrender.com/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Github Users',
@@ -39,7 +48,7 @@ export const projects = [
     tags: ['React', 'React-Bootstrap', 'Axios', 'SCSS'],
     code: 'https://github.com/agustinguillen/front-end-test-coding/',
     visit: 'https://agustin-nicolas-guillen.d36k3austvoqs9.amplifyapp.com/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Airwav',
@@ -48,7 +57,7 @@ export const projects = [
     tags: ['React', 'React-Bootstrap', 'Firebase'],
     code: 'https://github.com/agustinguillen/airwavGuillen',
     visit: 'https://airwav-instruments.herokuapp.com/',
-    id: 5,
+    id: 6,
   },
   
   {
@@ -58,7 +67,7 @@ export const projects = [
     tags: ['Angular 11', 'Bootstrap'],
     code: 'https://github.com/agustinguillen/velvet',
     visit: 'https://agustinguillen.github.io/velvet/',
-    id: 6,
+    id: 7,
   },
   {
     title: 'Budger',
@@ -67,7 +76,7 @@ export const projects = [
     tags: ['Jquery', 'JavaScript', 'Bootstrap', 'Ajax'],
     code: 'https://github.com/agustinguillen/budger',
     visit: 'https://agustinguillen.github.io/budger/',
-    id: 7,
+    id: 8,
   },
   {
     title: 'Saurus Beats',
@@ -76,7 +85,7 @@ export const projects = [
     tags: ['Bootstrap', 'SCSS'],
     code: 'https://github.com/agustinguillen/saurusbeats',
     visit: 'https://agustinguillen.github.io/saurusbeats/',
-    id: 8,
+    id: 9,
   }
 ];
 

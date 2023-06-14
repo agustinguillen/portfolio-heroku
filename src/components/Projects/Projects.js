@@ -8,17 +8,17 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
-    <GridContainer>
+    <GridContainer style={{ paddingBottom: '5vh' }}>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i}>
-          <Img src={p.image} />
+          <BlogCard key={i} style={{ height: '760px' }}>
+            <Img src={p.image} style={{ height: '250px' }} />
             <TitleContent>
               <HeaderThree title="true">{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
-            <div style={{marginTop: '15px'}}>
+            <CardInfo className="card-info" style={{ fontSize: '1.2rem' }}>{p.description}</CardInfo>
+            <div style={{ marginTop: '15px' }}>
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
@@ -29,9 +29,9 @@ const Projects = () => (
             <UtilityList>
               {
                 p && p.code &&
-                <ExternalLinks href={p.code}>Code</ExternalLinks>
+                <ExternalLinks href={p.code} target={'_blank'} rel={'noreferrer'}>Code</ExternalLinks>
               }
-              <ExternalLinks href={p.visit}>Visit</ExternalLinks>
+              <ExternalLinks href={p.visit} target={'_blank'} rel={'noreferrer'}>Visit</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );
